@@ -1,15 +1,40 @@
 import sys
+import argparse
 import nbtlib
 from nbtlib import schema, CompoundSchema
 from nbtlib import Compound, String, Byte, List, Int, Double
 
 # List of filenames of boxes to create & the associated egg type, shulker box color is defined in <box>.snbt
-boxes = {"combat": "minecraft:spider_spawn_egg"}
+boxes = {
+    "combat": "spider",
+    "tools": "slime",
+    "miscellaneous": "pig",
+    "mind_the_gap": "horse",
+    "drippy_pot": "turtle",
+    "drippy_pot[cring]": "vindicator",
+    "battle_pan": "wither_skeleton",
+    "battle_pan[cring]": "ravager"
+}
 
-# Row to place the created items in; 0-indexed, value of -1 means do not create
-SPAWNER_ROW = '6'
-VILLAGER_ROW = '7'
-COMMAND_BOOK_ROW = '8'
+# Read optional arguments
+parser = argparse.ArgumentParser(description="e")
+parser.add_argument('-s', default='-1')
+parser.add_argument('-v', default='-1')
+parser.add_argument('-c', default='-1')
+args = parser.parse_args()
+
+SPAWNER_ROW = str(args.s)
+VILLAGER_ROW = str(args.v)
+COMMAND_BOOK_ROW = str(args.c)
+
+# If no arguments were passed
+if SPAWNER_ROW == '-1' and VILLAGER_ROW == '-1' and COMMAND_BOOK_ROW == '-1':
+    print(f"Usage: {sys.argv[0]} [-s <row>] [-v <row>] [-c <row>]\n" +
+          "\t<row>: 0-indexed saved hotbar row to place the items in.\n" +
+          "\ts: Row to put Spawn Eggs for Shulker Box Spawners\n" +
+          "\tv: Row to put Spawn Eggs for Villagers that sell Shulker Boxes\n" +
+          "\tc: Row to put Command Book Eggs")
+    exit()
 
 
 def readBox(name):
@@ -18,7 +43,7 @@ def readBox(name):
 
 def boxToSpawnerEgg(box, eggType):
     return Compound({
-        'id': String(eggType),
+        'id': String(f"minecraft:{eggType}_spawn_egg"),
         'Count': Byte(1),
         'tag': Compound({
             'EntityTag': Compound({
@@ -41,7 +66,10 @@ def boxToSpawnerEgg(box, eggType):
                             'BlockState': Compound({
                                 'Name': String(box['id'])
                             }),
-                            'TileEntityData': box['tag']
+                            'TileEntityData': Compound({
+                                'CustomName': box['tag']['display']['Name'],
+                                'Items': box['tag']['Items']
+                            })
                         }),
                         'Weight': Int(1)
                     }])
@@ -54,7 +82,7 @@ def boxToSpawnerEgg(box, eggType):
 
 def boxToVillagerEgg(box, eggType):
     return Compound({
-        'id': String(eggType),
+        'id': String(f"minecraft:{eggType}_spawn_egg"),
         'Count': Byte(1),
         'tag': Compound({
             'EntityTag': Compound({
@@ -112,3 +140,5 @@ with nbtlib.load("hotbar.nbt") as hotbar:
         if not VILLAGER_ROW == '-1':
             boxVillagerEgg = boxToVillagerEgg(boxNBT, boxes[box])
             hotbar.root[VILLAGER_ROW][column] = boxVillagerEgg
+
+        column += 1
