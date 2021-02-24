@@ -1,0 +1,740 @@
+{
+    id: "minecraft:black_shulker_box",
+    Count: 1b,
+    tag: {
+        display: {
+            Name: '{"text":"Battle Pan","italic":false}'
+        },
+        Items: [
+            {
+                Slot: 0b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 1b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 2b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 3b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 4b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 5b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 6b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 7b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 8b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 9b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 10b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 11b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 12b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 13b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 14b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 15b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 16b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 17b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 18b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 19b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 20b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 21b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 22b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 23b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 24b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 25b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 26b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_strength",
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1800,
+                            Id: 1b,
+                            Amplifier: 1b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 3600,
+                            Id: 10b,
+                            Amplifier: 0b,
+                            ShowParticles: 1b
+                        },
+                        {
+                            Duration: 9600,
+                            Id: 12b,
+                            Amplifier: 0b
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

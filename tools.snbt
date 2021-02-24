@@ -1,0 +1,1230 @@
+{
+    id: "minecraft:lime_shulker_box",
+    Count: 1b,
+    tag: {
+        display: {
+            Name: '{"text":"Tools","italic":false}'
+        },
+        Items: [
+            {
+                Slot: 0b,
+                id: "minecraft:netherite_axe",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Sharpness V","color":"gray","italic":false}',
+                            '{"text":"Efficiency V","color":"gray","italic":false}',
+                            '{"text":"Silk touch","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 13 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 1 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 119217702, -1009693061, -1838157775, -1185996324],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 934883530, -633453958, -1401857479, -369488216],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 1b,
+                id: "minecraft:netherite_axe",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Sharpness V","color":"gray","italic":false}',
+                            '{"text":"Efficiency V","color":"gray","italic":false}',
+                            '{"text":"Fortune III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 13 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 1 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 119217702, -1009693061, -1838157775, -1185996324],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 934883530, -633453958, -1401857479, -369488216],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 2b,
+                id: "minecraft:netherite_pickaxe",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Efficiency V","color":"gray","italic":false}',
+                            '{"text":"Silk Touch","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 6 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 1.2 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 119217702, -1009693061, -1838157775, -1185996324],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 934883530, -633453958, -1401857479, -369488216],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 3b,
+                id: "minecraft:netherite_pickaxe",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Efficiency V","color":"gray","italic":false}',
+                            '{"text":"Fortune III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 6 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 1.2 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 119217702, -1009693061, -1838157775, -1185996324],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 934883530, -633453958, -1401857479, -369488216],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 4b,
+                id: "minecraft:netherite_shovel",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Efficiency V","color":"gray","italic":false}',
+                            '{"text":"Silk Touch","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 6.5 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 1 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 119217702, -1009693061, -1838157775, -1185996324],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 934883530, -633453958, -1401857479, -369488216],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 5b,
+                id: "minecraft:netherite_shovel",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Efficiency V","color":"gray","italic":false}',
+                            '{"text":"Fortune III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 6.5 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 1 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 119217702, -1009693061, -1838157775, -1185996324],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 934883530, -633453958, -1401857479, -369488216],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 6b,
+                id: "minecraft:netherite_hoe",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Efficiency V","color":"gray","italic":false}',
+                            '{"text":"Silk Touch","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 1 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 4 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 119217702, -1009693061, -1838157775, -1185996324],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 934883530, -633453958, -1401857479, -369488216],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 7b,
+                id: "minecraft:netherite_hoe",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Efficiency V","color":"gray","italic":false}',
+                            '{"text":"Fortune III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 1 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 4 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 119217702, -1009693061, -1838157775, -1185996324],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 934883530, -633453958, -1401857479, -369488216],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 8b,
+                id: "minecraft:trident",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Impaling V","color":"gray","italic":false}',
+                            '{"text":"Loyalty III","color":"gray","italic":false}',
+                            '{"text":"Channeling","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 9 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 1.1 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 10s,
+                            id: "minecraft:looting"
+                        },
+                        {
+                            lvl: 5s,
+                            id: "minecraft:loyalty"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:channeling"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 814206634, 503336862, -2104690238, 451346145],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; -1204275925, 320294530, -1201943375, 165850398],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 9b,
+                id: "minecraft:trident",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Impaling V","color":"gray","italic":false}',
+                            '{"text":"Riptide III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 9 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 1.1 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 10s,
+                            id: "minecraft:looting"
+                        },
+                        {
+                            lvl: 5s,
+                            id: "minecraft:riptide"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 814206634, 503336862, -2104690238, 451346145],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; -1204275925, 320294530, -1201943375, 165850398],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 10b,
+                id: "minecraft:flint_and_steel",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:knockback"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:fire_aspect"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:looting"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; -1393847588, -620346512, -1546468178, 1572193084],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; 552717735, 1536903409, -1632635519, -222283281],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; -2046871427, 197346145, -1271520953, -760586429],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        },
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 1869139121, 1767065154, -1198950141, 1911756490],
+                            Amount: 200,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 955282805, -1932375173, -1715775920, -1928397619],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 11b,
+                id: "minecraft:shears",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:knockback"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:fire_aspect"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:looting"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; -1393847588, -620346512, -1546468178, 1572193084],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; 552717735, 1536903409, -1632635519, -222283281],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; -2046871427, 197346145, -1271520953, -760586429],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        },
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 1869139121, 1767065154, -1198950141, 1911756490],
+                            Amount: 200,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 955282805, -1932375173, -1715775920, -1928397619],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 12b,
+                id: "minecraft:fishing_rod",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Luck of the Sea III","color":"gray","italic":false}',
+                            '{"text":"Lure III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 100s,
+                            id: "minecraft:knockback"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:luck_of_the_sea"
+                        },
+                        {
+                            lvl: 5s,
+                            id: "minecraft:lure"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; -485027213, 475873809, -1789492340, 375024031],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        },
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 427347220, 1082281743, -1778589168, -290142762],
+                            Amount: 0,
+                            Name: "generic.attack_damage"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 13b,
+                id: "minecraft:trident",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:loyalty"
+                        },
+                        {
+                            lvl: 5s,
+                            id: "minecraft:impaling"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:channeling"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 14b,
+                id: "minecraft:trident",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 5s,
+                            id: "minecraft:impaling"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:riptide"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 15b,
+                id: "minecraft:netherite_axe",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 5s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 16b,
+                id: "minecraft:netherite_axe",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 5s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 17b,
+                id: "minecraft:netherite_pickaxe",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 18b,
+                id: "minecraft:netherite_pickaxe",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 19b,
+                id: "minecraft:netherite_shovel",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 20b,
+                id: "minecraft:netherite_shovel",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 21b,
+                id: "minecraft:netherite_hoe",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 22b,
+                id: "minecraft:netherite_hoe",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 23b,
+                id: "minecraft:flint_and_steel",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 24b,
+                id: "minecraft:shears",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 25b,
+                id: "minecraft:fishing_rod",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:luck_of_the_sea"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:lure"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 26b,
+                id: "minecraft:shield",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    Damage: 0,
+                    HideFlags: 6,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; -957774565, -1380628614, -1381444717, 1383170110],
+                            Amount: 200,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -762541308, -1146272012, -1362714628, 1818537673],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; -1342531127, 318196294, -2104388041, -855408065],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

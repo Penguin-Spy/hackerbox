@@ -1,0 +1,1123 @@
+{
+    id: "minecraft:pink_shulker_box",
+    Count: 1b,
+    tag: {
+        display: {
+            Name: '{"text":"Miscellaneous","italic":false}'
+        },
+        Items: [
+            {
+                Slot: 0b,
+                id: "minecraft:bow",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    Damage: 0,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Power V","color":"gray","italic":false}',
+                            '{"text":"Punch II","color":"gray","italic":false}',
+                            '{"text":"Infinity","color":"gray","italic":false}',
+                            '{"text":"Flame","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:power"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:punch"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:flame"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:infinity"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 1b,
+                id: "minecraft:crossbow",
+                Count: 1b,
+                tag: {
+                    ChargedProjectiles: [
+                        {
+                            id: "minecraft:tipped_arrow",
+                            Count: 1b,
+                            tag: {
+                                Potion: "minecraft:strong_harming"
+                            }
+                        },
+                        {
+                            id: "minecraft:tipped_arrow",
+                            Count: 1b,
+                            tag: {
+                                Potion: "minecraft:strong_harming"
+                            }
+                        },
+                        {
+                            id: "minecraft:tipped_arrow",
+                            Count: 1b,
+                            tag: {
+                                Potion: "minecraft:strong_harming"
+                            }
+                        }
+                    ],
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    Charged: 1b,
+                    display: {
+                        Lore: [
+                            '{"text":"Quick Charge III","color":"gray","italic":false}',
+                            '{"text":"Multishot","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:multishot"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:piercing"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:quick_charge"
+                        }
+                    ],
+                    Damage: 0
+                }
+            },
+            {
+                Slot: 2b,
+                id: "minecraft:arrow",
+                Count: 127b
+            },
+            {
+                Slot: 3b,
+                id: "minecraft:bow",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 5s,
+                            id: "minecraft:power"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:punch"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:flame"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:infinity"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 4b,
+                id: "minecraft:bow",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 5s,
+                            id: "minecraft:power"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:punch"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:flame"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 5b,
+                id: "minecraft:crossbow",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:multishot"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:quick_charge"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 6b,
+                id: "minecraft:crossbow",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        },
+                        {
+                            lvl: 4s,
+                            id: "minecraft:piercing"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:quick_charge"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 7b,
+                id: "minecraft:tipped_arrow",
+                Count: 127b,
+                tag: {
+                    Potion: "minecraft:strong_harming"
+                }
+            },
+            {
+                Slot: 8b,
+                id: "minecraft:dragon_egg",
+                Count: 127b
+            },
+            {
+                Slot: 9b,
+                id: "minecraft:turtle_helmet",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 647744875, -2038280575, -1651382830, -1924622759],
+                            Amount: 32767,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 1587384545, -882948616, -1077955004, 1646535335],
+                            Amount: 32767,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.movement_speed",
+                            Operation: 0,
+                            UUID: [I; -303911047, 1472218272, -1440094869, -1170443089],
+                            Amount: 10,
+                            Name: "generic.movement_speed"
+                        },
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 1451323538, 1121994498, -1463701718, -1629503138],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -823165371, 143019137, -1622343487, 1412510842],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 1225615156, 1788693916, -2131986041, -113194734],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 978493716, -388283483, -2069164466, -1313229300],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:fire_protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:blast_protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:projectile_protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:respiration"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:aqua_affinity"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:depth_strider"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:frost_walker"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:knockback"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:fire_aspect"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:power"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:punch"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:flame"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:infinity"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:luck_of_the_sea"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:lure"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:loyalty"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:impaling"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:riptide"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:channeling"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:vanishing_curse"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:multishot"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:piercing"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:quick_charge"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 10b,
+                id: "minecraft:end_portal_frame",
+                Count: 127b
+            },
+            {
+                Slot: 11b,
+                id: "minecraft:oak_sign",
+                Count: 16b,
+                tag: {
+                    HideFlags: 3,
+                    BlockEntityTag: {},
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 1276422520, 973162339, -1393077073, -1178413207],
+                            Amount: 200,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; -54276725, 922044684, -1158701320, -937576647],
+                            Amount: 32767,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.movement_speed",
+                            Operation: 1,
+                            UUID: [I; -1803914208, 198461084, -1516901451, 1713230547],
+                            Amount: 1.6d,
+                            Name: "generic.movement_speed"
+                        },
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; -2084671923, 2025079136, -1182799922, 1068128561],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; 2141281711, 949437052, -2060786963, 42428965],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; -153606115, 179457336, -1517438855, 1720619781],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; 1581983144, 342049634, -1432662775, 1751515186],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ],
+                    display: {
+                        Lore: [
+                            '{"text":"Fire Aspect II","color":"gray","italic":false}',
+                            '{"text":"Knockback II","color":"gray","italic":false}',
+                            '{"text":"Sharpness V","color":"gray","italic":false}',
+                            '{"text":"Looting III","color":"gray","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:fire_protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:blast_protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:projectile_protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:respiration"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:aqua_affinity"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:depth_strider"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:frost_walker"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:binding_curse"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:knockback"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:fire_aspect"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:looting"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sweeping"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:power"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:punch"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:flame"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:infinity"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:luck_of_the_sea"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:lure"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:loyalty"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:impaling"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:riptide"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:channeling"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:vanishing_curse"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:multishot"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:piercing"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:quick_charge"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 12b,
+                id: "minecraft:oak_sign",
+                Count: 127b,
+                tag: {
+                    HideFlags: 3,
+                    BlockEntityTag: {},
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; -1427508793, 1694056682, -2033239248, 1631520233],
+                            Amount: 80,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.movement_speed",
+                            Operation: 1,
+                            UUID: [I; 1554597653, 1346389309, -1967053028, 270189856],
+                            Amount: 2.5d,
+                            Name: "generic.movement_speed"
+                        },
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; -945381331, 2015186684, -2092186183, 1517107299],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -295050527, 460409016, -1108723187, -1550164142],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; -709080623, 634081107, -1822521946, 2104036257],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; -1931381532, -2066658406, -1830205254, -42949558],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ],
+                    display: {
+                        Lore: [
+                            '{"text":"Fire Aspect II","color":"aqua","italic":false}',
+                            '{"text":"Knockback II","color":"aqua","italic":false}',
+                            '{"text":"Sharpness V","color":"aqua","italic":false}',
+                            '[{"text":"Looting III","color":"aqua","italic":false}]',
+                            '{"text":" "}',
+                            '{"text":"May you survive out on the Sea of Flame","color":"red","underlined":true}'
+                        ],
+                        Name: '{"text":"Sign","color":"dark_red","bold":true,"italic":false,"underlined":true}'
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:fire_protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:blast_protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:projectile_protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:respiration"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:aqua_affinity"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:depth_strider"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:frost_walker"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:binding_curse"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:knockback"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:fire_aspect"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:looting"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sweeping"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:efficiency"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:silk_touch"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:fortune"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:power"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:punch"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:flame"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:infinity"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:luck_of_the_sea"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:lure"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:loyalty"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:impaling"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:riptide"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:channeling"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:mending"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:vanishing_curse"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:multishot"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:piercing"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:quick_charge"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 13b,
+                id: "minecraft:jungle_boat",
+                Count: 127b,
+                tag: {
+                    HideFlags: 3,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.movement_speed",
+                            Operation: 1,
+                            UUID: [I; -1256176274, -1065794556, -1728863713, -124517532],
+                            Amount: 6.15d,
+                            Name: "generic.movement_speed"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 14b,
+                id: "minecraft:bedrock",
+                Count: 127b
+            },
+            {
+                Slot: 15b,
+                id: "minecraft:barrier",
+                Count: 127b
+            },
+            {
+                Slot: 16b,
+                id: "minecraft:totem_of_undying",
+                Count: 127b
+            },
+            {
+                Slot: 17b,
+                id: "minecraft:spawner",
+                Count: 127b
+            },
+            {
+                Slot: 18b,
+                id: "minecraft:firework_rocket",
+                Count: 127b,
+                tag: {
+                    Fireworks: {
+                        Flight: 1b
+                    }
+                }
+            },
+            {
+                Slot: 19b,
+                id: "minecraft:firework_rocket",
+                Count: 127b,
+                tag: {
+                    Fireworks: {
+                        Flight: 1b
+                    }
+                }
+            },
+            {
+                Slot: 20b,
+                id: "minecraft:firework_rocket",
+                Count: 127b,
+                tag: {
+                    Fireworks: {
+                        Flight: 3b
+                    }
+                }
+            },
+            {
+                Slot: 21b,
+                id: "minecraft:firework_rocket",
+                Count: 127b,
+                tag: {
+                    Fireworks: {
+                        Flight: 3b
+                    }
+                }
+            },
+            {
+                Slot: 22b,
+                id: "minecraft:firework_rocket",
+                Count: 64b,
+                tag: {
+                    Fireworks: {
+                        Flight: 1b,
+                        Explosions: [
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                Slot: 23b,
+                id: "minecraft:firework_rocket",
+                Count: 64b,
+                tag: {
+                    Fireworks: {
+                        Flight: 1b,
+                        Explosions: [
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                Slot: 24b,
+                id: "minecraft:firework_rocket",
+                Count: 64b,
+                tag: {
+                    Fireworks: {
+                        Flight: 1b,
+                        Explosions: [
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                Slot: 25b,
+                id: "minecraft:firework_rocket",
+                Count: 64b,
+                tag: {
+                    Fireworks: {
+                        Flight: 1b,
+                        Explosions: [
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                Slot: 26b,
+                id: "minecraft:firework_rocket",
+                Count: 64b,
+                tag: {
+                    Fireworks: {
+                        Flight: 1b,
+                        Explosions: [
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            },
+                            {
+                                FadeColors: [I; 11743532, 15435844, 14602026, 4312372, 3887386, 6719955, 2437522, 8073150]
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

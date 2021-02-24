@@ -1,0 +1,1442 @@
+{
+    id: "minecraft:light_blue_shulker_box",
+    Count: 1b,
+    tag: {
+        display: {
+            Name: '{"text":"Drippy Pot","italic":false}'
+        },
+        Items: [
+            {
+                Slot: 0b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 1b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 2b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 3b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 4b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 5b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 6b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 7b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 8b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 9b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 10b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 11b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 12b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 13b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 14b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 15b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 16b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 17b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 18b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 19b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 20b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 21b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 22b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 23b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 24b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 25b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 26b,
+                id: "minecraft:potion",
+                Count: 127b,
+                tag: {
+                    CustomPotionEffects: [
+                        {
+                            Duration: 1000000000,
+                            Id: 10b,
+                            Amplifier: 9b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 11b,
+                            Amplifier: 4b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 12b,
+                            Amplifier: 0b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 21b,
+                            Amplifier: 19b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 23b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        },
+                        {
+                            Duration: 1000000000,
+                            Id: 32b,
+                            Amplifier: 10b,
+                            ShowParticles: 0b
+                        }
+                    ],
+                    CustomPotionColor: 16776960,
+                    Potion: "minecraft:thick",
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

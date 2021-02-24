@@ -1,0 +1,848 @@
+{
+    id: "minecraft:yellow_shulker_box",
+    Count: 1b,
+    tag: {
+        display: {
+            Name: '{"text":"Mind the Gap","italic":false}'
+        },
+        Items: [
+            {
+                Slot: 0b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 1b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 2b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 3b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 4b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 5b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 6b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 7b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 8b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 9b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 10b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 11b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 12b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 13b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 14b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 15b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 16b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 17b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 18b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 19b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 20b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 21b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 22b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 23b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 24b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 25b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 26b,
+                id: "minecraft:enchanted_golden_apple",
+                Count: 64b,
+                tag: {
+                    AttributeModifiers: [
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1617909973, -840351360, -1901795442, 1170052984],
+                            Name: "generic.armor"
+                        },
+                        {
+                            Amount: 32767,
+                            Slot: "offhand",
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 857583196, 477056094, -1466265422, -415535719],
+                            Name: "generic.armor_toughness"
+                        }
+                    ],
+                    Enchantments: [
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

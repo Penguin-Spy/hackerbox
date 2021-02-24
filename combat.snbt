@@ -1,7 +1,10 @@
 {
     id: "minecraft:red_shulker_box",
-    Count: 3b,
+    Count: 1b,
     tag: {
+        display: {
+            Name: '{"text":"Combat","italic":false}'
+        },
         Items: [
             {
                 Slot: 0b,
@@ -9,12 +12,1294 @@
                 Count: 1b,
                 tag: {
                     Unbreakable: 1b,
-                    HideFlags: 7
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Thorns III","color":"gray","italic":false}',
+                            '{"text":"Respiration III","color":"gray","italic":false}',
+                            '{"text":"Aqua Affinity","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Head:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:respiration"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:aqua_affinity"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 1658238136, 1636126434, -1301863611, 1838386334],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2042615969, 1386169331, -2113018461, -904929844],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1368193292, -1507899148, -1262991985, -1186482552],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 1490351234, -1735049215, -2143134020, -68062602],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 1b,
+                id: "minecraft:netherite_chestplate",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Thorns III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Body:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 1658238136, 1636126434, -1301863611, 1838386334],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2042615969, 1386169331, -2113018461, -904929844],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1368193292, -1507899148, -1262991985, -1186482552],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 1490351234, -1735049215, -2143134020, -68062602],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 2b,
+                id: "minecraft:netherite_leggings",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Thorns III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Legs:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 1658238136, 1636126434, -1301863611, 1838386334],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2042615969, 1386169331, -2113018461, -904929844],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1368193292, -1507899148, -1262991985, -1186482552],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 1490351234, -1735049215, -2143134020, -68062602],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 3b,
+                id: "minecraft:netherite_boots",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Thorns III","color":"gray","italic":false}',
+                            '{"text":"Feather Falling IV","color":"gray","italic":false}',
+                            '{"text":"Soul Speed III","color":"gray","italic":false}',
+                            '{"text":"Depth Strider III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Feet:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 7s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:depth_strider"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; -463490083, -405123453, -1729022724, 917108350],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2071172036, 507595770, -1822574460, 615435489],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1657731613, -1279114103, -1574732983, -1761320114],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 273572514, -1113305704, -1944620627, -1310749396],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 4b,
+                id: "minecraft:netherite_helmet",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:respiration"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:aqua_affinity"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 5b,
+                id: "minecraft:netherite_chestplate",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 6b,
+                id: "minecraft:netherite_leggings",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 7b,
+                id: "minecraft:netherite_boots",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 4s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:depth_strider"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 8b,
+                id: "minecraft:netherite_boots",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 4s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:frost_walker"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 9b,
+                id: "minecraft:netherite_helmet",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Respiration III","color":"gray","italic":false}',
+                            '{"text":"Aqua Affinity","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Head:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:respiration"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:aqua_affinity"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 1658238136, 1636126434, -1301863611, 1838386334],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2042615969, 1386169331, -2113018461, -904929844],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1368193292, -1507899148, -1262991985, -1186482552],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 1490351234, -1735049215, -2143134020, -68062602],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 10b,
+                id: "minecraft:netherite_chestplate",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Body:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 1658238136, 1636126434, -1301863611, 1838386334],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2042615969, 1386169331, -2113018461, -904929844],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1368193292, -1507899148, -1262991985, -1186482552],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 1490351234, -1735049215, -2143134020, -68062602],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 11b,
+                id: "minecraft:netherite_leggings",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Legs:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; 1658238136, 1636126434, -1301863611, 1838386334],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2042615969, 1386169331, -2113018461, -904929844],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1368193292, -1507899148, -1262991985, -1186482552],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 1490351234, -1735049215, -2143134020, -68062602],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 12b,
+                id: "minecraft:netherite_boots",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Feather Falling IV","color":"gray","italic":false}',
+                            '{"text":"Soul Speed III","color":"gray","italic":false}',
+                            '{"text":"Depth Strider III","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Feet:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 7s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:depth_strider"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; -463490083, -405123453, -1729022724, 917108350],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2071172036, 507595770, -1822574460, 615435489],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1657731613, -1279114103, -1574732983, -1761320114],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 273572514, -1113305704, -1944620627, -1310749396],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 13b,
+                id: "minecraft:netherite_helmet",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:respiration"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:aqua_affinity"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 14b,
+                id: "minecraft:netherite_chestplate",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 15b,
+                id: "minecraft:netherite_leggings",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 16b,
+                id: "minecraft:netherite_boots",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 4s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:depth_strider"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 17b,
+                id: "minecraft:netherite_boots",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 4s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 4s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:frost_walker"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 18b,
+                id: "minecraft:elytra",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    Damage: 0,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 19b,
+                id: "minecraft:netherite_boots",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Thorns III","color":"gray","italic":false}',
+                            '{"text":"Feather Falling IV","color":"gray","italic":false}',
+                            '{"text":"Soul Speed III","color":"gray","italic":false}',
+                            '{"text":"Frost Walker II","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Feet:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 7s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:thorns"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:depth_strider"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:frost_walker"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; -463490083, -405123453, -1729022724, 917108350],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2071172036, 507595770, -1822574460, 615435489],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1657731613, -1279114103, -1574732983, -1761320114],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 273572514, -1113305704, -1944620627, -1310749396],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 20b,
+                id: "minecraft:elytra",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    Damage: 0,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 21b,
+                id: "minecraft:netherite_boots",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Protection IV","color":"gray","italic":false}',
+                            '{"text":"Feather Falling IV","color":"gray","italic":false}',
+                            '{"text":"Soul Speed III","color":"gray","italic":false}',
+                            '{"text":"Frost Walker II","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When on Feet:","color":"gray","italic":false}',
+                            '{"text":"+3 Armor","color":"blue","italic":false}',
+                            '{"text":"+3 Armor Toughness","color":"blue","italic":false}',
+                            '{"text":"+1 Knockback Resistance","color":"blue","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:protection"
+                        },
+                        {
+                            lvl: 7s,
+                            id: "minecraft:feather_falling"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:depth_strider"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:frost_walker"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:soul_speed"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.max_health",
+                            Operation: 0,
+                            UUID: [I; -463490083, -405123453, -1729022724, 917108350],
+                            Amount: 20,
+                            Name: "generic.max_health"
+                        },
+                        {
+                            AttributeName: "generic.knockback_resistance",
+                            Operation: 0,
+                            UUID: [I; 2071172036, 507595770, -1822574460, 615435489],
+                            Amount: 1,
+                            Name: "generic.knockback_resistance"
+                        },
+                        {
+                            AttributeName: "generic.armor",
+                            Operation: 0,
+                            UUID: [I; -1657731613, -1279114103, -1574732983, -1761320114],
+                            Amount: 32767,
+                            Name: "generic.armor"
+                        },
+                        {
+                            AttributeName: "generic.armor_toughness",
+                            Operation: 0,
+                            UUID: [I; 273572514, -1113305704, -1944620627, -1310749396],
+                            Amount: 32767,
+                            Name: "generic.armor_toughness"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 22b,
+                id: "minecraft:elytra",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 23b,
+                id: "minecraft:netherite_sword",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7,
+                    display: {
+                        Lore: [
+                            '{"text":"Sharpness V","color":"gray","italic":false}',
+                            '{"text":"Looting III","color":"gray","italic":false}',
+                            '{"text":"Sweeping Edge III","color":"gray","italic":false}',
+                            '{"text":"Fire Aspect II","color":"gray","italic":false}',
+                            '{"text":"Knockback II","color":"gray","italic":false}',
+                            '{"text":"Unbreaking III","color":"gray","italic":false}',
+                            '{"text":"Mending","color":"gray","italic":false}',
+                            '{"text":"Curse of Vanishing","color":"red","italic":false}',
+                            '{"text":" "}',
+                            '{"text":"When in Main Hand:","color":"gray","italic":false}',
+                            '{"text":" 11 Attack Damage","color":"dark_green","italic":false}',
+                            '{"text":" 1.6 Attack Speed","color":"dark_green","italic":false}'
+                        ]
+                    },
+                    Enchantments: [
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:smite"
+                        },
+                        {
+                            lvl: 32767s,
+                            id: "minecraft:bane_of_arthropods"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:knockback"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:fire_aspect"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:looting"
+                        },
+                        {
+                            lvl: 10s,
+                            id: "minecraft:sweeping"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:vanishing_curse"
+                        }
+                    ],
+                    Damage: 0,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; -1251936930, -1171372413, -1371536609, 181789092],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 24b,
+                id: "minecraft:netherite_sword",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    Damage: 0,
+                    HideFlags: 6,
+                    AttributeModifiers: [
+                        {
+                            AttributeName: "generic.attack_damage",
+                            Operation: 0,
+                            UUID: [I; 1470291573, -2101852219, -1475555815, -2008634228],
+                            Amount: 32767,
+                            Name: "generic.attack_damage"
+                        },
+                        {
+                            AttributeName: "generic.attack_speed",
+                            Operation: 0,
+                            UUID: [I; -1401098216, 119424723, -1879106848, 594698376],
+                            Amount: 32767,
+                            Name: "generic.attack_speed"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 25b,
+                id: "minecraft:netherite_sword",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:knockback"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:fire_aspect"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:looting"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:sweeping"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
+                }
+            },
+            {
+                Slot: 26b,
+                id: "minecraft:netherite_sword",
+                Count: 1b,
+                tag: {
+                    Damage: 0,
+                    Enchantments: [
+                        {
+                            lvl: 5s,
+                            id: "minecraft:sharpness"
+                        },
+                        {
+                            lvl: 2s,
+                            id: "minecraft:fire_aspect"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:looting"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:sweeping"
+                        },
+                        {
+                            lvl: 3s,
+                            id: "minecraft:unbreaking"
+                        },
+                        {
+                            lvl: 1s,
+                            id: "minecraft:mending"
+                        }
+                    ]
                 }
             }
-        ],
-        display: {
-            Name: '{"text":"bruh","italic":false}'
-        }
+        ]
     }
 }
