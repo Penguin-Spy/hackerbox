@@ -95,15 +95,20 @@ def boxToVillagerEgg(box, eggType):
 with nbtlib.load("hotbar.nbt") as hotbar:
     column = 1
 
-    hotbar.root[SPAWNER_ROW] = List[Compound]([{}, {}, {}, {}, {}, {}, {}, {}, {}])
-    hotbar.root[VILLAGER_ROW] = List[Compound]([{}, {}, {}, {}, {}, {}, {}, {}, {}])
+    if not SPAWNER_ROW == '-1':
+        print(f"Generating Spawners in row {SPAWNER_ROW}")
+        hotbar.root[SPAWNER_ROW] = List[Compound]([{}, {}, {}, {}, {}, {}, {}, {}, {}])
+    if not VILLAGER_ROW == '-1':
+        print(f"Generating Villagers in row {VILLAGER_ROW}")
+        hotbar.root[VILLAGER_ROW] = List[Compound]([{}, {}, {}, {}, {}, {}, {}, {}, {}])
 
     for box in boxes.keys():
         boxNBT = readBox(box)
-        boxSpawnerEgg = boxToSpawnerEgg(boxNBT, boxes[box])
-        boxVillagerEgg = boxToVillagerEgg(boxNBT, boxes[box])
+        print(f"Creating {box} box")
 
-        hotbar.root[SPAWNER_ROW][column] = boxSpawnerEgg
-        hotbar.root[VILLAGER_ROW][column] = boxVillagerEgg
-
-    print(hotbar.root['6'][1])
+        if not SPAWNER_ROW == '-1':
+            boxSpawnerEgg = boxToSpawnerEgg(boxNBT, boxes[box])
+            hotbar.root[SPAWNER_ROW][column] = boxSpawnerEgg
+        if not VILLAGER_ROW == '-1':
+            boxVillagerEgg = boxToVillagerEgg(boxNBT, boxes[box])
+            hotbar.root[VILLAGER_ROW][column] = boxVillagerEgg
