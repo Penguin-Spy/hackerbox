@@ -1,0 +1,20 @@
+{
+    id: "minecraft:red_shulker_box",
+    Count: 3b,
+    tag: {
+        Items: [
+            {
+                Slot: 0b,
+                id: "minecraft:netherite_helmet",
+                Count: 1b,
+                tag: {
+                    Unbreakable: 1b,
+                    HideFlags: 7
+                }
+            }
+        ],
+        display: {
+            Name: '{"text":"bruh","italic":false}'
+        }
+    }
+}
